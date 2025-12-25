@@ -1,7 +1,3 @@
-Here’s a **clean, professional GitHub README** you can directly use for your Simon Game project 👇
-
----
-
 # 🎮 Simon Game
 
 A classic **Simon Memory Game** built using **HTML, CSS, JavaScript, and jQuery**.
@@ -15,7 +11,7 @@ The game challenges players to remember and repeat an ever-growing sequence of c
 * 🧠 Increasing difficulty with each level
 * 🔊 Audio feedback for correct and wrong moves
 * ✨ Button press animations
-* ⌨️ Start game using keyboard input
+* ⌨️ Start game using touch input
 * ❌ Game-over state with visual and sound feedback
 
 ---
@@ -31,9 +27,9 @@ The game challenges players to remember and repeat an ever-growing sequence of c
 
 ## 🎯 How to Play
 
-1. Press any key to start the game
+1. Touch anywhere to start the game
 2. Watch the pattern shown by the game
-3. Repeat the pattern by clicking the colored buttons
+3. Repeat the pattern by touching the colored buttons
 4. Each correct round increases the level
 5. One wrong click ends the game
 
@@ -46,7 +42,7 @@ Simon-Game/
 │
 ├── index.html
 ├── styles.css
-├── game.js
+├── index.js
 ├── sounds/
 │   ├── green.mp3
 │   ├── red.mp3
@@ -69,7 +65,7 @@ Simon-Game/
 
 ## 📸 Preview
 
-*(Add a screenshot or GIF of your game here)*
+<img width="1624" height="881" alt="Screenshot (19)" src="https://github.com/user-attachments/assets/f6c645b5-58d0-45e1-82ea-3059266f2c8a" />
 
 ---
 
@@ -95,11 +91,3 @@ Made with ❤️ while learning JavaScript
 This project is open source and free to use for learning and personal projects.
 
 ---
-
-If you want, I can also:
-
-* Add **badges**
-* Create a **live demo section**
-* Optimize it for **portfolio projects**
-
-Just tell me 👍
