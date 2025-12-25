@@ -3,7 +3,10 @@
 A classic **Simon Memory Game** built using **HTML, CSS, JavaScript, and jQuery**.
 The game challenges players to remember and repeat an ever-growing sequence of colors and sounds. Each level adds a new step, testing memory, focus, and reaction speed.
 
+## PLAY THE GAME FROM HERE  
+<a href="https://chiragarora07.github.io/The-Simon-Game/"> Click Here </a>
 ---
+
 
 ## 🚀 Features
 
