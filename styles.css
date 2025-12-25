@@ -1,0 +1,167 @@
+@media (max-width: 492px) { 
+.title {
+  padding: 2px;
+  background-color: #0F2854;
+  color: #FEF2BF;
+  font-weight:bold;
+}
+.everything {
+  margin-top: 40px;
+  margin-bottom: -90px;
+}
+ body {
+  text-align: center;
+  background-color: #BDE8F5;
+}
+footer {
+  padding: 3px;
+  color: #FEF2BF;
+  background-color: #0F2854;
+  text-align: center;
+  font-size: large;
+  font-weight: 600;
+  font-style: oblique;
+  height: 42px;
+}
+.nit {
+  font-style: normal;
+}
+
+.level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 35px;
+  margin:  5%;
+  color: #0F2854;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 3px;
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  border: 10px solid black;
+  border-radius: 20%;
+  position: relative;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+  top: -159px;
+  right: -100px;
+
+}
+
+.green {
+  background-color: green;
+  top: 20px;
+  left: -100px;
+}
+
+.blue {
+  background-color: blue;
+  right: -100px;
+  top: -319px;
+
+
+}
+
+.yellow {
+  background-color: yellow;
+  top: -140px;
+  left: -100px;
+
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+}
+
+@media (min-width: 492px) {
+  .title {
+  padding: 2px;
+  background-color: #0F2854;
+  color: #FEF2BF;
+ }
+  body {
+  text-align: center;
+  background-color: #BDE8F5;
+}
+footer {
+  padding: 6px;
+  background-color: #0F2854;
+  color: #FEF2BF;
+  text-align: center;
+  font-size: large;
+  font-weight: 600;
+  font-style: oblique;
+  height: 42px;
+}
+.nit {
+  font-style: normal;
+}
+
+.level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #0F2854;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+}
