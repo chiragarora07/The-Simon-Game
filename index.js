@@ -45,8 +45,6 @@ function check(inputByUser, patternMemory) {
         $("footer").css("color", "black");
         $(".title").css("color", "black");
 
-        patternMemory = "0";
-        level = 0;
         startGame();
     }
 }
@@ -117,10 +115,11 @@ function gameLogic() {
     userInput(inputByUser, patternMemory);
 
 }
-var patternMemory = "0";
-var level = 0;
+
 function startGame() {
     setTimeout( function() {
+        var patternMemory = "0";
+        var level = 0;
         $(document).click(function (event) {
         $(document).off("click")
         gameLogic();
@@ -130,6 +129,7 @@ function startGame() {
 }
 
 startGame();
+
 
 
 
