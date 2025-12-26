@@ -119,7 +119,7 @@ var patternMemory = "0";
 var level = 0;
 function startGame() {
     setTimeout( function() {
-        patternMemory = '0;
+        patternMemory = "0";
         level = 0;
         $(document).click(function (event) {
         $(document).off("click")
@@ -130,6 +130,7 @@ function startGame() {
 }
 
 startGame();
+
 
 
 
