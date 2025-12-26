@@ -45,10 +45,7 @@ function check(inputByUser, patternMemory) {
         $("footer").css("color", "black");
         $(".title").css("color", "black");
 
-
-
-
-
+        patternMemory = "0";
         level = 0;
         startGame();
     }
@@ -133,6 +130,7 @@ function startGame() {
 }
 
 startGame();
+
 
 
 
